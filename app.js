@@ -57,4 +57,36 @@
 // alert(a)
 
 
-// 
+// q9
+// var a = "472";
+// var b = parseInt(a);
+
+// document.write("value : "+a+"<br>");
+// document.write("type : "+ typeof(a)+"<br>");
+// document.write("value : "+b+"<br>");
+// document.write("type : "+ typeof(b));
+
+
+// q10
+// var user_in = prompt("enter : ");
+// var a = user_in.toUpperCase();
+// alert(a)
+
+
+// q11
+// var user_in = prompt("enter : ");
+// var a = user_in.slice(0,1);
+// var b = a.toUpperCase();
+// var c = user_in.slice(1,user_in.length);
+// var d = c.toLowerCase();
+// var titlecase = b.concat(d);
+// alert(titlecase)
+
+
+// q12
+// var number = 35.23;
+// var a = number.toString();
+// alert(a);
+
+
+// q13
