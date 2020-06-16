@@ -89,4 +89,25 @@
 // alert(a);
 
 
-// q13
+// q14
+// var bakery = ["cake","biscuit","juice","milk"];
+// var sell = String(prompt("enter item : "));
+// var sell1 = sell.toLowerCase();
+// for(i = 0 ; i < bakery.length ; i++){
+//     if(bakery[i] == sell1){
+//         a = bakery.indexOf(bakery[i])
+//         alert(sell1+" is available at our bakery on index "+a);
+//         break
+//     }
+//     else{
+//         alert("sorry "+sell1+" is not available");
+//         break
+//     }
+// }
+
+
+// q16
+// var university = 'University of Karachi';
+// var a = university.split("<br>",3);
+// document.write(a);
+
