@@ -177,4 +177,81 @@
 // }
 
 
+// ...................................ch 31-34.............................................
+// ........................................................................................
+// q1
+
+
+
+// var date = new Date();
+// document.write(date)
+
+
+// q2
+// var a = ["january","february","march","april","may","june","july","august","september","october","november","december"]
+// var date = new Date();
+// var m = date.getMonth() ;
+// document.write(a[m])
+
+// q3
+// var a = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+// var date = new Date();
+// var b = date.getDay();
+// document.write(a[b])
+
+// q4
+// var a = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+// var date = new Date();
+// var b = date.getDay();
+// if( a[b] == "Sun" || a[b] == "Sat" ){
+//     alert("it is funday today ! ")
+// }
+
+
+
+// q5
+// var a = new Date();
+// var b = a.getDate();
+// if (b<=15){
+//     alert("first fifteen days of month")
+// }
+// else{
+//     alert("last fifteen days of month ")
+// }
+
+
+
+// q6
+// var a = new Date();
+// var b = a.getMilliseconds();
+// var c = a.getMinutes();
+// document.write("date : "+a+"<br>")
+
+// document.write("time in milisecond : "+b+"<br>")
+
+// document.write("time in minutes : "+c+"<br>")
+
+
+// q7
+// var a = new Date();
+// var b = a.getHours();
+// if(b<12){
+//     alert("its am")
+// }
+// else{
+//     alert("its pm")
+// }
+
+
 // q8
+
+
+
+
+
+
+
+
+
+
+
