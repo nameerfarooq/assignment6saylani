@@ -111,3 +111,70 @@
 // var a = university.split("<br>",3);
 // document.write(a);
 
+// q18
+// var a = "the quick brown fox jumps over the lazydog";
+// var b = a.match(/the/g).length
+// alert(b);
+
+// ...................................ch 26-30.............................................
+// ........................................................................................
+
+
+// q1
+// var n = +prompt("enter a number :");
+// document.write(n+"<br>");
+// document.write(Math.round(n)+"<br>");
+// document.write(Math.floor(n)+"<br>");
+// document.write(Math.ceil(n)+"<br>");
+
+
+// q2
+// var n = -prompt("enter a number :");
+// document.write(n+"<br>");
+// document.write(Math.round(n)+"<br>");
+// document.write(Math.floor(n)+"<br>");
+// document.write(Math.ceil(n)+"<br>");
+
+// q3
+// var n = prompt("enter a number :")
+// document.write(Math.abs(n));
+
+
+
+// q4
+// var a = Math.floor(Math.random() * 6) + 1
+// document.write("random dice number :"+a)
+
+// var b = Math.floor(Math.random() * 6) + 1
+// document.write("random dice number :"+b)
+
+
+// q5
+
+// var b = Math.floor(Math.random() * 2) + 1
+// document.write("random dice number :"+b+" <br>")
+// if(b == 1){
+//     document.write("random coin value : tails")
+// }
+// else if(b == 2){
+//     document.write("random coin value : heads")
+// }
+
+
+// q6
+
+// var b = Math.floor(Math.random() * 100) + 1
+// document.write("random dice number :"+b)
+
+
+// q7
+
+// var b = Math.floor(Math.random() * 10) + 1
+
+// var a = prompt("enter a number between 1 to 10")
+// if(b == a){
+    // document.write("congratulations !");
+// }
+
+
+// q8
