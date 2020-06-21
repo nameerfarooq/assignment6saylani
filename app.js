@@ -177,9 +177,9 @@
 // }
 
 
-// ...................................ch 31-34.............................................
 // ........................................................................................
-// q1
+// / ...................................ch 31-34.............................................
+//q1
 
 
 
@@ -244,14 +244,94 @@
 
 
 // q8
+// var a = new Date("Thu Dec 31, 2020")
+// document.write(a)
+
+
+// q13
+// var a = new Date();
+// var b = prompt("enter your age :");
+// var c = a.getFullYear();
+// var d = c - b
+// document.write("your birth year is : "+d);
+
+
+// q14
+// document.write("<h1>K-ELECTRIC BILL</h1><br>");
+// var a = prompt("enter your name : ");
+// var b = new Date().getMonth();
+// var c = prompt("enter numbers of units : ");
+// var d = 16;
+// var f = c*d
+// document.write("Consumer name  :"+a+"<br>");
+// document.write("billing for the month of :"+b+"<br>");
+// document.write("units consumed :"+c+"<br>");
+// document.write("Amount payable within due date :"+f+"<br>");
+// var e = 350;
+// document.write("late payment surcharge : "+e+"<br>");
+// document.write("amount payable after due date : "+(f+e));
 
 
 
 
 
+// ........................................................................................
+// / ...................................ch 35-38.............................................
+
+
+//q1
+// function TellDate(){
+//     var a = new Date();
+//     document.write(a)
+// }
+
+// TellDate()
 
 
 
+// // q2
+// function greet(){
+//     var a = prompt("enter your first name :");
+
+//     var b = prompt("enter your last name :");
+
+//     document.write("welcome, "+a+" "+b)
+
+// }
+// greet()
+
+
+// q3
+// function SumIt(){
+//     var a = +prompt("enter your first num :");
+
+//     var b = +prompt("enter your second num :");
+
+//     document.write("added, "+ (a+b))
+
+// }
+// SumIt()
 
 
 
+// q4
+// function Calculator(num1,num2,operator){
+//     if (operator == "+"){
+//         b = num1 + num2
+//     }
+//     else if (operator == "-"){
+//         b = num1 - num2
+//     }
+//     else if (operator == "*"){
+//         b = num1 + num2
+//     }
+//     else if (operator == "/"){
+//         b = num1 / num2
+//     }
+//     var a = num1+operator+num2+"="+b;
+//     alert(a)
+// }
+// Calculator(5,10,"-")
+
+
+// q5
