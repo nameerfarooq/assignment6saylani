@@ -334,4 +334,59 @@
 // Calculator(5,10,"-")
 
 
+
+
 // q5
+// function square(number){
+//     var a = number*number
+//     alert(a)
+// }
+// square(10)
+
+
+
+// q7
+// function counting(){
+//     var a = parseInt(prompt("enter starting number : "));
+//     var b = parseInt(prompt("enter ending number : "));
+//     for(i = a;i>=b;i++){
+//         document.write(i+"<br>")
+//     }
+// }
+
+// counting()
+
+
+// q9
+// function area(h,w){
+//     var a = h*w;
+//     alert("area is : "+a);
+// }
+// area(10,5)
+
+// q10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
